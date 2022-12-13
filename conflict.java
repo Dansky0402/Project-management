@@ -10,6 +10,7 @@ class Main {
 
       // trying to create a file based on the object
       boolean value = file.createNewFile();
+      boolean valuex = file.createNewFile();
       if (value) {
         System.out.println("The new file is created.");
       }
